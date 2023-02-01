@@ -10,6 +10,7 @@ function reloadgame(){
     document.querySelector('.number').style.height="12rem"
     document.querySelector('.number').textContent="?";
      randomnumber = generateRandomInteger(20);
+    document.querySelector('.check').style.visibility="visible"
 }
 
 function generateRandomInteger(max) {
